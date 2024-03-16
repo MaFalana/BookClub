@@ -95,6 +95,7 @@
 		84D0DEE92B7BB34400B21A9B = {
 			isa = PBXGroup;
 			children = (
+				84D0DF082B7BB3F000B21A9B /* README.md */,
 				84D0DEF42B7BB34400B21A9B /* BookClub */,
 				84D0DEF32B7BB34400B21A9B /* Products */,
 			);
@@ -119,7 +120,6 @@
 				84D0DEFB2B7BB34600B21A9B /* Assets.xcassets */,
 				84D0DEFD2B7BB34600B21A9B /* BookClub.entitlements */,
 				84D0DEFE2B7BB34600B21A9B /* Preview Content */,
-				84D0DF082B7BB3F000B21A9B /* README.md */,
 			);
 			path = BookClub;
 			sourceTree = "<group>";
