@@ -13,13 +13,28 @@ This app works by utilizing Scandit's SDK for the sccanning capabilities and the
 - Just click the [link]() and follow the instructions.
 
 ### Features
+- User generated reading lists
 
+- Searching Capabilities
+
+- IBSN Scanning
+
+### Planned Features
+- Add sharing capablities
+
+- Book avalibitly near user using their current location
+
+- Book recommendations (recommendations based on the author may be the easiest to implement)
+
+- Using LibGen to download avlaible epub files and open them in Apple Books
+
+## Problems, Issues and how I overcame them
 
 ### What I Learned
 
 Using SwiftData with MVVM
 
-SwiftData is a fairly new alternative to Swift's core data. One of my favorite feacture of it is the '@Query' function which allows the automatic fetching of SwiftData objects, however due to the way I organize my code; I like to seperate my backend (class managers) and frontend (views). '@Query' can only be used on views, so I needed a workaround to produce this same functionality in my backend classes.
+SwiftData is a fairly new alternative to Swift's core data. One of my favorite feacture of it is the '@Query' function which allows the automatic fetching of SwiftData objects, however due to the way I organize my code; I like to seperate my backend (class managers) and frontend (views). '@Query' can only be used on views, so I needed a workaround to produce this same functionality in my backend classes. I was able to achieve this through a Model View ViewModel (MVVM) architecture.
 
 UPC barcode.
 
@@ -35,24 +50,15 @@ A book cannot exist in multiple lists after starting an new app session -> Fixed
 
 When I first began developing iOS apps get data from a JSON request was very tredious since I had to design a struct that would be compatible with every possibility of data that may or may not be present for a response. After making apis using python I wonder if there was a simplier way to do it in swift as well. There was! using SwiftyJSON I was able to cut my workload drastically. Now instead of making a model for data in a response that I may or not receive, I am able to handle the more specialized conditions within the class initilizaers wchich leads to a more stremlined process.
 
-### Problems, Issues and how I overcame them
 
-## Current Bugs
+### Current Bugs
 
 When a book is added to a user generated list there is no checkmark indicting what list(s) it belongs to
 
 Books in user generated lists are never in the same order after starting a new app session
 
 
-## Future Improvements
 
-Add sharing capablities
-
-Book avalibitly near user using their current location
-
-Book recommendations (recommendations based on the author may be the easiest to implement)
-
-Using LibGen to download avlaible epub files and open them in Apple Books
 
 ## Acknowledgements
 
