@@ -12,7 +12,7 @@ This app works by utilizing Scandit's SDK for the sccanning capabilities and the
 ### Installing
 - Just click the [link]() and follow the instructions.
 
-### Features
+### Current Features
 - User generated reading lists
 
 - Searching Capabilities
@@ -48,7 +48,7 @@ leverageing data from multiple apis together into one cohesive data model
 
 A book cannot exist in multiple lists after starting an new app session -> Fixed it by Using a many to many relationship, Books can be long too many lists
 
-When I first began developing iOS apps get data from a JSON request was very tredious since I had to design a struct that would be compatible with every possibility of data that may or may not be present for a response. After making apis using python I wonder if there was a simplier way to do it in swift as well. There was! using SwiftyJSON I was able to cut my workload drastically. Now instead of making a model for data in a response that I may or not receive, I am able to handle the more specialized conditions within the class initilizaers wchich leads to a more stremlined process.
+When I first began developing iOS apps get data from a JSON request was very tredious since I had to design a struct that would be compatible with every possibility of data that may or may not be present for a response. After making apis using python I wonder if there was a simplier way to do it in swift as well. There was! using SwiftyJSON I was able to cut my workload drastically. Now instead of making a model for data in a response that I may or not receive, I am able to handle the more specialized conditions within the class initilizaers wchich leads to a more streamlined process.
 
 
 ### Current Bugs
