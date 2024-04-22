@@ -31,6 +31,10 @@ This app works by utilizing Scandit's SDK for the sccanning capabilities and the
 ### Demo Video
 
 
+https://github.com/MaFalana/BookClub/assets/104946127/a7fb1b56-e451-44f8-b6d5-2fc94476e2f4
+
+
+
 ## Problems, Issues and how I overcame them
 
 ### What I Learned
