@@ -28,6 +28,9 @@ This app works by utilizing Scandit's SDK for the sccanning capabilities and the
 
 - Using LibGen to download avlaible epub files and open them in Apple Books
 
+### Demo Video
+
+
 ## Problems, Issues and how I overcame them
 
 ### What I Learned
